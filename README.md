@@ -204,8 +204,9 @@ $$
 and the relative change:
 
 $$
-\Delta D_{\max,\%}(t)=
-\frac{D_{\max}(t)-D_{\max}(t_0)}{D_{\max}(t_0)}\times100
+\Delta D_{\max,\mathrm{rel}}(t)=
+\frac{D_{\max}(t)-D_{\max}(t_0)}
+{D_{\max}(t_0)}\times100
 $$
 
 When `--stride` is greater than 1, the first and maximum values refer only to the frames included in the analysis.
